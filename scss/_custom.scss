@@ -1,0 +1,36 @@
+// Here you can add other styles
+
+
+
+.wide-33 
+{
+width:33%;
+float:left;
+
+	label {
+	    width: 100%;
+	}
+	.input-group {
+    width: 100%;
+}
+}
+.disabled {
+   pointer-events: none;
+   cursor: default;
+   color:#999 !important;
+}
+a.page-link.active {
+    background-color: #e3e3e3;
+}
+button.clear_filter {
+    position: absolute;
+    right: 30px;
+    z-index: 11;
+}
+.clickable{ cursor:pointer; border:1px solid #20a8d8; border-top:0;border-bottom:0;}
+.margin-t10{ margin-top:10px;}
+.wide-100{ width:100%;}
+.wide-100 > div,.wide-100 > label {
+    float: left;
+}
+#input_mandrill{width:100%;}
