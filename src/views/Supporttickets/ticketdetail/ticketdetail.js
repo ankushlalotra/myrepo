@@ -5,7 +5,7 @@ import {connect} from 'react-redux';
 import {doesclateReq} from '../../../redux/actions/esclatetomanagement';
 import {doreplyReq} from '../../../redux/actions/mandrillActions';
 var mandrill = require('mandrill-api/mandrill');
-var mandrill_client = new mandrill.Mandrill('llsvBhncBLu5RbzT4Vy1ig');
+var mandrill_client = new mandrill.Mandrill('1ig');
 
 class Ticketdetails extends Component {
   constructor(props) {
